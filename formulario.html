@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <!--Formulário-->
+    <main>
+        <!--Tipo de Formulário-->
+        <header>
+            <h1>Solicitação de entrega de materiais</h1>
+        </header>
+
+        <!--Info Obra-->
+        <section>
+            <h3>Identificação da Obra Local</h3>
+            Nome: <input type="text">
+           
+        </section>
+        
+        <!--Info Destinatário-->
+        <section>
+            <h3>Dados Gerais do Destinatário</h3>
+            Nome da Empresa: <br> <input type="text"> <br>
+            Nome da Pessoa Responsável: <br> <input type="text"> <br>
+            Email: <br> <input type="email"> <br>
+            Telefone Fixo: <br> <input type="number"> <br> 
+            Telefone Celular: <br> <input type="number">
+        </section>
+        
+        <!--Info Transpostadora-->
+        <section>
+            <h3>Informações da Transportadora</h3>
+            Nome da Empresa: <br> <input type="text"> <br> 
+            Nome da Pessoa Responsável: <br> <input type="text"> <br> 
+            Email: <br> <input type="email"> <br> 
+            Telefone Fixo: <br> <input type="number"> <br> 
+            Telefone Celular: <br> <input type="number">
+        </section>
+        
+        <!--Info Carga-->
+        <section>
+            <h3>Informações da Carga</h3>
+            Identificação do(s) Produto(s): <br> <input type="text"><br> 
+            N° da Nota Fiscal: <br> <input type="number"><br> 
+            Data Sugerida de Entrega: <input type="date"><br> 
+            Condições de Entrega: 
+            <select> 
+                <option>Selecione</option>
+                <option>Entregue</option>
+                <option>Pendente</option>
+                <option>Atrasada</option>
+                <option>Cancelada</option>
+            </select><br> 
+            Endereço da Portaria de Entrega: <br> <input type="text"><br> 
+            Cidade: <br> <input type="text"><br> 
+              UF:
+            <select name="estado"> 
+                    <option value="estado">Selecione </option> 
+                    <option value="ac">Acre</option> 
+                    <option value="al">Alagoas</option> 
+                    <option value="am">Amazonas</option> 
+                    <option value="ap">Amapá</option> 
+                    <option value="ba">Bahia</option> 
+                    <option value="ce">Ceará</option> 
+                    <option value="df">Distrito Federal</option> 
+                    <option value="es">Espírito Santo</option> 
+                    <option value="go">Goiás</option> 
+                    <option value="ma">Maranhão</option> 
+                    <option value="mt">Mato Grosso</option> 
+                    <option value="ms">Mato Grosso do Sul</option> 
+                    <option value="mg">Minas Gerais</option> 
+                    <option value="pa">Pará</option> 
+                    <option value="pb">Paraíba</option> 
+                    <option value="pr">Paraná</option> 
+                    <option value="pe">Pernambuco</option> 
+                    <option value="pi">Piauí</option> 
+                    <option value="rj">Rio de Janeiro</option> 
+                    <option value="rn">Rio Grande do Norte</option> 
+                    <option value="ro">Rondônia</option> 
+                    <option value="rs">Rio Grande do Sul</option> 
+                    <option value="rr">Roraima</option> 
+                    <option value="sc">Santa Catarina</option> 
+                    <option value="se">Sergipe</option> 
+                    <option value="sp">São Paulo</option> 
+                    <option value="to">Tocantins</option> 
+            </select><br> 
+            Equipamentos Disponíveis paa Descarga: <br> <input type="text"><br> 
+            N° de Pallets/Volumes: <br> <input type="number"><br> 
+            Peso por Pallet/Volume (kg): <br> <input type="number"><br> 
+            Destino do Material da Obra: <br> <input type="text"><br> 
+            Uso de EPI Obrigatório:
+            <input type="radio" name = "obra">sim</option>
+            <input type="radio" name = "obra">não</option>
+        </section>
+        
+        <!--Info Pedido-->
+        <section>
+
+            <h3>Observações</h3>
+            
+            Data:<input type="date"> <br>
+            Digite as Observações Necessárias no Campo Abaixo: <br>
+            <input type="text">
+            N° do Pedido: <input type="number">
+        </section>
+    </main>
+</body>
+</html>
